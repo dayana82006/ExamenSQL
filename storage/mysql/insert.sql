@@ -1,6 +1,6 @@
 INSERT INTO libro(titulo, genero, ISBN, disponibilidad) VALUES ('Pajaros Felices', 'infantil', '87326326423', 'disponible'),('Perros y Gatos', 'infantil', '1245678', 'disponible');
 INSERT INTO autor(nombre, apellido, nacionalidad) VALUES ('jacinto', 'perez', 'peruano'),('Pedro', 'Morales', 'colombiano');
-INSERT INTO LibroAutor(libro_id.autor_id) VALUES (1,1)(2,2);
+INSERT INTO LibroAutor(libro_id.autor_id) VALUES ('1','1'),('2','2');
 INSERT INTO editorial(nombre,pais) VALUES('editorial1','peru'),('editorial2','colombia');
 INSERT INTO publicacion(id_editorial, fecha_publicacion,edicion,estado) VALUES (1,'2013-02-02','primera','publicado'),('2','2013-02-02','primera','publicado');
 INSERT INTO miembro(nombre,apellido,correo,telefono) VALUES ('Camilo','Hernandez', 'camilo@gmail.com','3125006423'),('Pedro','Perez', 'pedro@gmail.com','3129806423');
