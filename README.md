@@ -1,3 +1,5 @@
+##EXAMEN SQL
+
 
 -- Listar todos los libros disponibles
 ```sql
@@ -57,7 +59,7 @@ WHERE libro_id = 1;
 ```sql
 SELECT id, miembro_id, tipo_transaccion_id 
 FROM detalle_transaccion 
-WHERE tipo_transaccion_id = 1; -- Suponiendo que 1 es "préstamo"
+WHERE tipo_transaccion_id = 1; 
 ```
 
 -- Obtener los libros prestados actualmente
